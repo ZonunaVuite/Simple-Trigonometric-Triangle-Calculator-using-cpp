@@ -1,0 +1,34 @@
+SIMPLE TRIGONOMETRIC TRIANGLE CALCULATOR
+This is a simple program designed to calculate properties of a triangle using trigonometric functions. With this calculator, you can determine the perpendicular, base, hypotenuse, and area of a right triangle based on user inputs.
+
+FEATURES
+Calculate Perpendicular: Compute the perpendicular of a triangle given its base and angle.
+Calculate Base: Determine the base of a triangle given its perpendicular and angle.
+Calculate Hypotenuse: Find the hypotenuse of a triangle using its perpendicular and angle.
+Calculate Area: Calculate the area of a triangle given its base and perpendicular.
+
+HOW TO USE
+Run the program in a C++ compiler or IDE that supports the iostream and cmath libraries.
+Choose one of the following options:
+p/P: Calculate the perpendicular.
+b/B: Calculate the base.
+h/H: Calculate the hypotenuse.
+a/A: Calculate the area of the triangle.
+Enter the required inputs as prompted by the program:
+Base, Perpendicular, or Angle (in degrees).
+The result will be displayed on the console.
+You can choose to perform another calculation or exit the program.
+
+
+FORMULA USED
+Perpendicular = Base × tan(Angle in Radians)
+Base = Perpendicular ÷ tan(Angle in Radians)
+Hypotenuse = Perpendicular ÷ sin(Angle in Radians)
+Area = 0.5 × Base × Perpendicular
+
+REQUIREMENTS
+A C++ compiler (e.g., GCC, Visual Studio, or Code::Blocks)
+Libraries:
+iostream
+cmath
+Knowledge of basic trigonometry.
